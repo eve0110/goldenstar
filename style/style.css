@@ -61,8 +61,8 @@ body {
   width: 400px; }
   .navi .item-intro {
     font-size: 28px;
-    height: 260px;
-    padding: 10px;
+    height: 255px;
+    padding: 15px;
     padding-top: 150px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -90,7 +90,7 @@ body {
 
 .contact {
   background: #534741;
-  padding-top: 80px;
+  padding-top: 50px;
   padding-left: 30px;
   background-image: url("../images/bg-contact.png");
   background-position: right bottom;
