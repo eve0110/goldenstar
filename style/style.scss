@@ -9,7 +9,7 @@ $color-2: #998675;
 $color-3: #C70000; //red
 $color-4: #FBB03B; //yellow
 $color-5: #006837; //green
-$color-6: #F0E1D2; //light
+$color-6: #FFFCF2; //light
 
 @mixin item {
 	float: left;
@@ -56,8 +56,12 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 20px;
-	
 } 
+.shadow {
+	-moz-box-shadow: 0 0 5px 1px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0 0 5px 1px rgba(0,0,0,0.3);
+    box-shadow: 0 0 5px 1px rgba(0,0,0,0.3);
+}
 .content {
 	background: white;
 	padding-bottom: 10px;

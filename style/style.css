@@ -28,6 +28,11 @@ body {
   margin-right: auto;
   margin-top: 20px; }
 
+.shadow {
+  -moz-box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.3); }
+
 .content {
   background: white;
   padding-bottom: 10px; }
@@ -127,4 +132,4 @@ body {
   padding: 20px;
   font-size: 18px;
   line-height: 33px;
-  background: #f0e1d2; }
+  background: #fffcf2; }
