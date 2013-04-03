@@ -33,7 +33,7 @@ body {
   -webkit-box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.3); }
 
-.content {
+.main-page {
   background: white;
   padding-bottom: 10px; }
 
@@ -67,27 +67,30 @@ body {
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 10px;
-    line-height: 31px; }
+    line-height: 31px;
+    background-image: url("../images/tung-flower.png");
+    background-position: right bottom;
+    background-repeat: no-repeat; }
   .navi .item-photos {
     float: left;
-    width: 180px;
-    height: 175px;
-    padding-top: 10px;
-    padding-left: 10px;
+    width: 175px;
+    height: 155px;
+    padding-top: 30px;
+    padding-left: 15px;
     margin-left: 10px;
     font-size: 28px; }
   .navi .item-videos {
     float: left;
-    width: 180px;
-    height: 175px;
-    padding-top: 10px;
-    padding-left: 10px;
+    width: 175px;
+    height: 155px;
+    padding-top: 30px;
+    padding-left: 15px;
     margin-left: 10px;
     font-size: 28px; }
 
 .contact {
   background: #534741;
-  padding-top: 50px;
+  padding-top: 80px;
   padding-left: 30px;
   background-image: url("../images/bg-contact.png");
   background-position: right bottom;
