@@ -1,4 +1,5 @@
 $panel-w: 960px;
+$font-size-s: 18px;
 $font-size-m: 21px;
 $font-size-l: 28px;
 $font-size-xl: 48px;
@@ -8,6 +9,7 @@ $color-2: #998675;
 $color-3: #C70000; //red
 $color-4: #FBB03B; //yellow
 $color-5: #006837; //green
+$color-6: #F0E1D2; //light
 
 @mixin item {
 	float: left;
@@ -34,6 +36,18 @@ body {
 	font-family: bhei00m;
 	background-image: url("../images/bg.png");
 }
+.bg-red {
+	color: white;
+	background: $color-3;
+}
+.bg-green {
+	color: white;
+	background: $color-5;
+}
+.bg-yellow {
+	color: black;
+	background: $color-4;
+}
 .clear {
 	clear: both;
 }
@@ -42,7 +56,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 20px;
-	border: 1px solid $color-1a;
+	
 } 
 .content {
 	background: white;
@@ -73,8 +87,6 @@ body {
 	display: block;
 	width: 400px;
 	.item-intro {
-		color: white;
-		background: $color-3;
 		font-size: $font-size-l;
 		height: 260px;
 		padding: 10px;
@@ -86,17 +98,13 @@ body {
 	}
 	.item-photos {
 		@include item;
-		background: $color-4;
 	}
 	.item-videos {
 		@include item;
-		color: white;
-		background: $color-5;
 	}
 }
 .contact {
 	background: $color-1;
-	
 	padding-top:50px;
 	padding-left:30px;
 	background-image: url("../images/bg-contact.png");
@@ -125,4 +133,16 @@ body {
 	font-size: $font-size-l;
 	color: white;
 	font-family: Arial;
+}
+.item-title {
+	padding: 20px;
+	font-size: $font-size-m;
+	border-radius: 10px 10px 0 0;
+}
+
+.content-intro {
+	padding: 20px;
+	font-size: $font-size-s;
+	line-height: $font-size-s + 15px;
+	background: $color-6;
 }
