@@ -1,0 +1,113 @@
+@font-face {
+  font-family: bhei00m;
+  src: url("../font/bhei00m_t.ttf") format("truetype"); }
+
+body {
+  background: #fae6cd;
+  font-family: bhei00m;
+  background-image: url("../images/bg.png"); }
+
+.clear {
+  clear: both; }
+
+.panel {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.2); }
+
+.content {
+  background: white;
+  padding-bottom: 10px; }
+
+.main-image {
+  float: left;
+  width: 538px;
+  margin-left: 10px; }
+
+.team-name {
+  font-size: 48px;
+  color: #534741;
+  padding: 20px;
+  padding-top: 60px; }
+
+.en-name {
+  font-size: 21px;
+  color: #998675;
+  padding-top: 20px;
+  display: block;
+  font-family: Arial; }
+
+.navi {
+  float: left;
+  display: block;
+  width: 400px; }
+  .navi .item-intro {
+    color: white;
+    background: #c70000;
+    font-size: 28px;
+    height: 260px;
+    padding: 10px;
+    padding-top: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    line-height: 31px; }
+  .navi .item-photos {
+    float: left;
+    width: 180px;
+    height: 175px;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: 10px;
+    font-size: 28px;
+    background: #fbb03b; }
+  .navi .item-videos {
+    float: left;
+    width: 180px;
+    height: 175px;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: 10px;
+    font-size: 28px;
+    color: white;
+    background: #006837; }
+
+.contact {
+  background: #534741;
+  padding-top: 50px;
+  padding-left: 30px;
+  background-image: url("../images/bg-contact.png");
+  background-position: right bottom;
+  background-repeat: no-repeat; }
+  .contact .item-contact {
+    color: #fbb03b;
+    font-size: 28px; }
+
+.contacter {
+  font-size: 21px;
+  color: white;
+  line-height: 41px;
+  display: block; }
+
+.tel-1 {
+  color: white;
+  font-size: 21px;
+  line-height: 41px;
+  padding: 5px 5px 20px 5px;
+  display: inline-block;
+  background: #c70000; }
+
+.tel-2 {
+  color: white;
+  font-size: 21px;
+  line-height: 41px;
+  padding: 5px 5px 20px 5px;
+  display: inline-block;
+  background: #006837; }
+
+.number {
+  font-size: 28px;
+  color: white;
+  font-family: Arial; }

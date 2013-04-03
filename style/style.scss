@@ -1,0 +1,128 @@
+$panel-w: 960px;
+$font-size-m: 21px;
+$font-size-l: 28px;
+$font-size-xl: 48px;
+$color-1: #534741; //gray
+$color-1a: rgba(0,0,0,0.2);
+$color-2: #998675;
+$color-3: #C70000; //red
+$color-4: #FBB03B; //yellow
+$color-5: #006837; //green
+
+@mixin item {
+	float: left;
+	width: 180px;
+	height :175px;
+	padding-top: 10px;
+	padding-left: 10px; 
+	margin-left: 10px;
+	font-size: $font-size-l;
+}
+@mixin tel {
+	color: white;
+	font-size: $font-size-m;
+	line-height: $font-size-m + 20px;
+	padding: 5px 5px 20px 5px;
+	display: inline-block;
+}
+@font-face {
+    font-family: bhei00m;
+    src: url("../font/bhei00m_t.ttf") format("truetype");    
+}
+body {
+	background: rgb(250,230,205);
+	font-family: bhei00m;
+	background-image: url("../images/bg.png");
+}
+.clear {
+	clear: both;
+}
+.panel {
+	width: $panel-w;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	border: 1px solid $color-1a;
+} 
+.content {
+	background: white;
+	padding-bottom: 10px;
+}
+.main-image {
+	float: left;
+	width: 538px;
+	margin-left: 10px;
+	
+}
+.team-name {
+	font-size: $font-size-xl;
+	color: $color-1;
+	padding: 20px;
+	padding-top: 60px;
+
+}
+.en-name {
+	font-size: $font-size-m;
+	color: $color-2;
+	padding-top: 20px;
+	display: block;
+	font-family: Arial;
+}
+.navi {
+	float: left;
+	display: block;
+	width: 400px;
+	.item-intro {
+		color: white;
+		background: $color-3;
+		font-size: $font-size-l;
+		height: 260px;
+		padding: 10px;
+		padding-top: 150px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		margin-left: 10px;
+		line-height: $font-size-l + 3px;
+	}
+	.item-photos {
+		@include item;
+		background: $color-4;
+	}
+	.item-videos {
+		@include item;
+		color: white;
+		background: $color-5;
+	}
+}
+.contact {
+	background: $color-1;
+	
+	padding-top:50px;
+	padding-left:30px;
+	background-image: url("../images/bg-contact.png");
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	.item-contact {
+		color: $color-4;
+		font-size: $font-size-l;
+	}
+}
+.contacter {
+	font-size: $font-size-m;
+	color: white;
+	line-height: $font-size-m + 20px;
+	display: block;
+}
+.tel-1 {
+	@include tel;
+	background: $color-3;
+}
+.tel-2 {
+	@include tel;
+	background: $color-5;
+}
+.number {
+	font-size: $font-size-l;
+	color: white;
+	font-family: Arial;
+}
