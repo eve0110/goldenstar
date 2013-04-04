@@ -34,7 +34,7 @@ $color-6: #FFFCF2; //light
 body {
 	background: rgb(250,230,205);
 	font-family: bhei00m;
-	background-image: url("../images/bg.png");
+	background-image: url("../images/bg2.png");
 }
 .bg-red {
 	color: white;
@@ -50,6 +50,10 @@ body {
 }
 .clear {
 	clear: both;
+}
+.close {
+	font-size: $font-size-xl;
+	margin-top: -15px;
 }
 .panel {
 	width: $panel-w;
@@ -90,6 +94,15 @@ body {
 	float: left;
 	display: block;
 	width: 400px;
+	a {
+		display: block;
+	}
+	a:hover {
+		-moz-box-shadow: 0 0 5px 2px rgba(0,0,0,0.4);
+	    -webkit-box-shadow: 0 0 5px 2px rgba(0,0,0,0.4);
+	    box-shadow: 0 0 5px 2px rgba(0,0,0,0.4);
+	    background-image: url("../images/tung-flower.png");
+	}
 	.item-intro {
 		font-size: $font-size-l;
 		height: 255px;
@@ -99,9 +112,6 @@ body {
 		margin-bottom: 10px;
 		margin-left: 10px;
 		line-height: $font-size-l + 3px;
-		background-image: url("../images/tung-flower.png");
-		background-position: right bottom;
-		background-repeat: no-repeat;
 	}
 	.item-photos {
 		@include item;
@@ -112,7 +122,7 @@ body {
 }
 .contact {
 	background: $color-1;
-	padding-top:50px;
+	padding-top:40px;
 	padding-left:30px;
 	background-image: url("../images/bg-contact.png");
 	background-position: right bottom;
@@ -144,10 +154,8 @@ body {
 .item-title {
 	padding: 20px;
 	font-size: $font-size-m;
-	border-radius: 10px 10px 0 0;
 }
-
-.content-intro {
+.content-intro, .content-video, .content-photo {
 	padding: 20px;
 	font-size: $font-size-s;
 	line-height: $font-size-s + 15px;
