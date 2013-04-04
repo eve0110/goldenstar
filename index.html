@@ -152,9 +152,11 @@
 <script type="text/javascript" src="./js/jquery-1.8.3.min.js"></script>
 <script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
 <script>
+		$('.carousel').carousel('cycle')
+</script>
+<script>
 	$('.close').click(function(){
-		$('.tab-pane').removeClass("active");
-		
+		$('.tab-pane').removeClass("active");		
 	})
 </script>
 <script>
@@ -162,10 +164,7 @@
 		$('body').animate({
 		    		scrollTop: $('.tab-content').offset().top
 		    	}, 800);
-	})
-	
-</script>
-	
-	
+	})	
+</script>	
 </body>
 </html>
