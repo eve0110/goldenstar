@@ -1,1 +1,165 @@
-@font-face{font-family:bhei00m;src:url("../font/bhei00m_t.ttf") format("truetype")}body{background:#fae6cd;font-family:bhei00m;background-image:url("../images/bg2.png")}.bg-red{color:white;background:#c70000}.bg-green{color:white;background:#006837}.bg-yellow{color:black;background:#fbb03b}.clear{clear:both}.close{font-size:48px;margin-top:-15px}.center{text-align:center}.panel{width:960px;margin-left:auto;margin-right:auto;margin-top:20px}.shadow{-moz-box-shadow:0 0 5px 1px rgba(0,0,0,0.3);-webkit-box-shadow:0 0 5px 1px rgba(0,0,0,0.3);box-shadow:0 0 5px 1px rgba(0,0,0,0.3)}.main-page{background:white;padding-bottom:10px}.main-image{float:left;width:538px;margin-left:10px}.team-name{font-size:48px;color:#534741;padding:20px;padding-top:60px}.en-name{font-size:21px;color:#998675;padding-top:20px;display:block;font-family:Arial}.navi{float:left;display:block;width:400px}.navi a{display:block}.navi a:hover{-moz-box-shadow:0 0 5px 2px rgba(0,0,0,0.4);-webkit-box-shadow:0 0 5px 2px rgba(0,0,0,0.4);box-shadow:0 0 5px 2px rgba(0,0,0,0.4);background-image:url("../images/tung-flower.png")}.navi .item-intro{font-size:28px;height:255px;padding:15px;padding-top:150px;margin-top:10px;margin-bottom:10px;margin-left:10px;line-height:31px}.navi .item-photos{float:left;width:175px;height:155px;padding-top:30px;padding-left:15px;margin-left:10px;font-size:28px}.navi .item-videos{float:left;width:175px;height:155px;padding-top:30px;padding-left:15px;margin-left:10px;font-size:28px}.contact{background:#534741;padding-top:40px;padding-left:30px;background-image:url("../images/bg-contact.png");background-position:right bottom;background-repeat:no-repeat}.contact .item-contact{color:#fbb03b;font-size:28px}.contacter{font-size:21px;color:white;line-height:41px;display:block}.tel-1{color:white;font-size:21px;line-height:41px;padding:5px 5px 20px 5px;display:inline-block;background:#c70000}.tel-2{color:white;font-size:21px;line-height:41px;padding:5px 5px 20px 5px;display:inline-block;background:#006837}.number{font-size:28px;color:white;font-family:Arial}.item-title{padding:20px;font-size:21px}.content-intro,.content-video,.content-photo{padding:20px;font-size:18px;line-height:33px;background:#fffcf2}.photo-cell{width:300px;float:left;margin:5px}.pagenum{font-family:Arial;font-size:28px;text-align:right;padding:2px}
+@font-face {
+  font-family: bhei00m;
+  src: url("../font/bhei00m_t.ttf") format("truetype"); }
+
+body {
+  background: #fae6cd;
+  font-family: bhei00m;
+  background-image: url("../images/bg2.png"); }
+
+iframe {
+  border: 10px solid white;
+  -moz-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2); }
+
+.bg-red {
+  color: white;
+  background: #c70000; }
+
+.bg-green {
+  color: white;
+  background: #006837; }
+
+.bg-yellow {
+  color: black;
+  background: #fbb03b; }
+
+.clear {
+  clear: both; }
+
+.close {
+  font-size: 48px;
+  margin-top: -15px; }
+
+.center {
+  text-align: center; }
+
+.panel {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px; }
+
+.shadow {
+  -moz-box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.3); }
+
+.main-page {
+  background: white;
+  padding-bottom: 10px; }
+
+.main-image {
+  float: left;
+  width: 538px;
+  margin-left: 10px; }
+
+.team-name {
+  font-size: 48px;
+  color: #534741;
+  padding: 20px;
+  padding-top: 60px; }
+
+.en-name {
+  font-size: 21px;
+  color: #998675;
+  padding-top: 20px;
+  display: block;
+  font-family: Arial; }
+
+.navi {
+  float: left;
+  display: block;
+  width: 400px; }
+  .navi a {
+    display: block; }
+  .navi a:hover {
+    -moz-box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.4);
+    background-image: url("../images/tung-flower.png"); }
+  .navi .item-intro {
+    font-size: 28px;
+    height: 255px;
+    padding: 15px;
+    padding-top: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    line-height: 31px; }
+  .navi .item-photos {
+    float: left;
+    width: 175px;
+    height: 155px;
+    padding-top: 30px;
+    padding-left: 15px;
+    margin-left: 10px;
+    font-size: 28px; }
+  .navi .item-videos {
+    float: left;
+    width: 175px;
+    height: 155px;
+    padding-top: 30px;
+    padding-left: 15px;
+    margin-left: 10px;
+    font-size: 28px; }
+
+.contact {
+  background: #534741;
+  padding-top: 40px;
+  padding-left: 30px;
+  background-image: url("../images/bg-contact.png");
+  background-position: right bottom;
+  background-repeat: no-repeat; }
+  .contact .item-contact {
+    color: #fbb03b;
+    font-size: 28px; }
+
+.contacter {
+  font-size: 21px;
+  color: white;
+  line-height: 41px;
+  display: block; }
+
+.tel-1 {
+  color: white;
+  font-size: 21px;
+  line-height: 41px;
+  padding: 5px 5px 20px 5px;
+  display: inline-block;
+  background: #c70000; }
+
+.tel-2 {
+  color: white;
+  font-size: 21px;
+  line-height: 41px;
+  padding: 5px 5px 20px 5px;
+  display: inline-block;
+  background: #006837; }
+
+.number {
+  font-size: 28px;
+  color: white;
+  font-family: Arial; }
+
+.item-title {
+  padding: 20px;
+  font-size: 21px; }
+
+.content-intro, .content-video, .content-photo {
+  padding: 20px 35px;
+  font-size: 18px;
+  line-height: 33px;
+  background: #fffcf2; }
+
+.photo-cell {
+  width: 300px;
+  float: left;
+  margin: 5px; }
+
+.pagenum {
+  font-family: Arial;
+  font-size: 28px;
+  text-align: right;
+  padding: 2px; }
