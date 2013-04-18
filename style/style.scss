@@ -65,11 +65,21 @@ iframe {
 	text-align: center;
 }
 .panel {
+	
 	width: $panel-w;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 20px;
 } 
+.footer {
+	width: $panel-w;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: Arial;
+	text-align: right;
+}
 .shadow {
 	-moz-box-shadow: 0 0 5px 1px rgba(0,0,0,0.3);
     -webkit-box-shadow: 0 0 5px 1px rgba(0,0,0,0.3);
