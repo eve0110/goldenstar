@@ -141,29 +141,30 @@ iframe {
 }
 .contact {
 	background: $color-1;
-	padding-top:40px;
-	padding-left:30px;
+	padding: 20px 0 20px 30px;
 	background-image: url("../images/bg-contact.png");
 	background-position: right bottom;
 	background-repeat: no-repeat;
 	.item-contact {
 		color: $color-4;
 		font-size: $font-size-l;
+		line-height: $font-size-l * 2;
 	}
 }
 .contacter {
+	font-family: Arial;
 	font-size: $font-size-m;
 	color: white;
 	line-height: $font-size-m + 20px;
-	display: block;
+
 }
 .tel-1 {
-	@include tel;
 	background: $color-3;
+	padding: 5px;
 }
 .tel-2 {
-	@include tel;
 	background: $color-5;
+	padding: 5px;
 }
 .number {
 	font-size: $font-size-l;

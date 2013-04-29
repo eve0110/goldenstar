@@ -116,36 +116,28 @@ iframe {
 
 .contact {
   background: #534741;
-  padding-top: 40px;
-  padding-left: 30px;
+  padding: 20px 0 20px 30px;
   background-image: url("../images/bg-contact.png");
   background-position: right bottom;
   background-repeat: no-repeat; }
   .contact .item-contact {
     color: #fbb03b;
-    font-size: 28px; }
+    font-size: 28px;
+    line-height: 56px; }
 
 .contacter {
+  font-family: Arial;
   font-size: 21px;
   color: white;
-  line-height: 41px;
-  display: block; }
+  line-height: 41px; }
 
 .tel-1 {
-  color: white;
-  font-size: 21px;
-  line-height: 41px;
-  padding: 5px 5px 20px 5px;
-  display: inline-block;
-  background: #c70000; }
+  background: #c70000;
+  padding: 5px; }
 
 .tel-2 {
-  color: white;
-  font-size: 21px;
-  line-height: 41px;
-  padding: 5px 5px 20px 5px;
-  display: inline-block;
-  background: #006837; }
+  background: #006837;
+  padding: 5px; }
 
 .number {
   font-size: 28px;
